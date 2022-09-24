@@ -8,6 +8,7 @@ use LaracraftTech\LaravelXhprof\Middleware\XHProfMiddleware;
 
 class XHProfServiceProvider extends ServiceProvider
 {
+        public function register(){}
     /**
      * Perform post-registration booting of services.
      *
