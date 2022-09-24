@@ -12,7 +12,7 @@
     "homepage": "https://github.com/laracraft-tech/laravel-xhprof",
     "keywords": ["laravel", "xhprof", "profiling", "profiler", "profile", "php"],
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.0",
         "laravel/framework": "^5.1|^6.0|^7.0|^8.0|^9.0"
     },
     "require-dev": {
