@@ -21,8 +21,8 @@ class XHProfServiceProvider extends ServiceProvider
             $this->bootForConsole();
         }
 
-        $kernel = $this->app[Kernel::class];
-        $kernel->pushMiddleware(XHProfMiddleware::class);
+       // $kernel = $this->app[Kernel::class];
+        //$kernel->pushMiddleware(XHProfMiddleware::class);
     }
 
     /**
